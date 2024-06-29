@@ -1,0 +1,8 @@
+
+
+services:
+  # use redis as broker of the worker.
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
